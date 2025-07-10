@@ -65,7 +65,7 @@ nav {
     padding: 50px 0;
 }
 
-.nav-title {
+.nav-logo {
     font-family: "Inter", sans-serif;
     font-size: 34px;
     color: #4E47FF;
@@ -186,15 +186,15 @@ nav {
 /* Get in Touch */
 .getintouch {
     margin-top: 92x;
-    padding:71px 0;
-    display:flex;
+    padding: 71px 0;
+    display: flex;
     align-items: center;
-    justify-content:space-between;
-    gap:100px;
+    justify-content: space-between;
+    gap: 100px;
 }
 
-.touch-title{
-    color:black;
+.touch-title {
+    color: black;
     font-size: 97px;
     font-weight: bold;
 }
@@ -208,19 +208,19 @@ nav {
     font-size: 18px;
     color: black;
     margin-bottom: 10px;
-    display:block;
+    display: block;
 }
 
-.touch-col input[type="text"], 
-.touch-col input[type="email"], 
+.touch-col input[type="text"],
+.touch-col input[type="email"],
 .touch-col textarea {
-    display:block;
+    display: block;
     width: 100%;
     /* padding: 5px 15px; */
     height: 50px;
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    color:rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border: 1px solid #D6DDED;
     border-radius: 10px;
     margin-bottom: 19px;
@@ -232,4 +232,45 @@ nav {
 
 .touch-col input[type="submit"] {
     width: 100%;
+}
+
+/* footer */
+.footer-area {
+    height: 228px;
+    text-align: center;
+    padding: 104px 450px;
+    background-color: white;
+}
+
+.footer-logo {
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-copy {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+footer ul {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
