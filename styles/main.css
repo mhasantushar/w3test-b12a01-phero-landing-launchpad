@@ -73,7 +73,6 @@ nav {
 
 /* hero */
 .hero-sect {
-    text-align: center;
     margin-top: 158px;
     text-align: center;
 }
@@ -117,13 +116,13 @@ nav {
 
 /* Joined thousad of Productive Users */
 .productiveusers-sect {
+    margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
     /* height: 306px; */
     height: 206px;
     padding: 50px 80px;
     border-radius: 24px;
-    margin-top: 116px;
-    text-align:center;
+    text-align: center;
 }
 
 .prouser-title {
@@ -136,7 +135,7 @@ nav {
 .prouser-cols {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .col-count {
@@ -156,8 +155,81 @@ nav {
 
 
 /* Ready to focus better */
+.focusbetter-sect {
+    margin-top: 137px;
+    background-color: white;
+    height: 556px;
+    /* height: 696px; */
+    padding: 71px 150px;
+    border-radius: 14px;
+    text-align: center;
+}
 
+.focus-title {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
+.focus-copy {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 
+.focus-img {
+    margin: 20px 0;
+    border-radius: 48px;
+}
 
-/* TEST */
+/* Get in Touch */
+.getintouch {
+    margin-top: 92x;
+    padding:71px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:100px;
+}
+
+.touch-title{
+    color:black;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.touch-col {
+    width: 50%;
+}
+
+.touch-col label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    display:block;
+}
+
+.touch-col input[type="text"], 
+.touch-col input[type="email"], 
+.touch-col textarea {
+    display:block;
+    width: 100%;
+    /* padding: 5px 15px; */
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5);
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+.touch-col textarea {
+    height: 180px;
+}
+
+.touch-col input[type="submit"] {
+    width: 100%;
+}
