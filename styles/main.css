@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+button:hover {
+    color:aquamarine;
+}
+
 /* universal */
 
 * {
@@ -184,7 +188,7 @@ nav {
 }
 
 /* Get in Touch */
-.getintouch {
+.getintouch-area {
     margin-top: 92x;
     padding: 71px 0;
     display: flex;
@@ -199,11 +203,11 @@ nav {
     font-weight: bold;
 }
 
-.touch-col {
+.touch-column {
     width: 50%;
 }
 
-.touch-col label {
+.touch-column label {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     color: black;
@@ -211,9 +215,9 @@ nav {
     display: block;
 }
 
-.touch-col input[type="text"],
-.touch-col input[type="email"],
-.touch-col textarea {
+.touch-column input[type="text"],
+.touch-column input[type="email"],
+.touch-column textarea {
     display: block;
     width: 100%;
     /* padding: 5px 15px; */
@@ -226,12 +230,16 @@ nav {
     margin-bottom: 19px;
 }
 
-.touch-col textarea {
+.touch-column textarea {
     height: 180px;
 }
 
-.touch-col input[type="submit"] {
+.touch-column input[type="submit"] {
     width: 100%;
+}
+
+.touch-column input[type="submit"]:hover {
+    color: yellow;
 }
 
 /* footer */
@@ -266,6 +274,7 @@ footer ul {
 
 footer ul li {
     list-style-type: none;
+    padding 5px 10px;
 }
 
 footer ul li a {
@@ -273,4 +282,11 @@ footer ul li a {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     text-decoration: none;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+footer ul li a:hover {
+    background-color: #4E47FF;
+    color: white;
 }
