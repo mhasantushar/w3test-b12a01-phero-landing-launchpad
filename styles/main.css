@@ -1,0 +1,163 @@
+/* link google fonts */
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* shared */
+.to-center {
+    text-align: center;
+    align-items: center;
+}
+
+.btn-punch {
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-color: #4E47FF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F8FF;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-sect {
+    height: 698px;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: norepeat;
+    background-position: top center;
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding: 50px 0;
+}
+
+.nav-title {
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+/* hero */
+.hero-sect {
+    text-align: center;
+    margin-top: 158px;
+    text-align: center;
+}
+
+.page-header {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+}
+
+/* See It in Action */
+.seeinaction-sect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+
+.seeinact-left-col {
+    max-width: 517px;
+}
+
+.seeinact-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.seeinact-copy {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.seeinact-img {
+    border: none;
+    border-radius: 48px;
+}
+
+/* Joined thousad of Productive Users */
+.productiveusers-sect {
+    background-color: rgba(78, 71, 255, 0.1);
+    /* height: 306px; */
+    height: 206px;
+    padding: 50px 80px;
+    border-radius: 24px;
+    margin-top: 116px;
+    text-align:center;
+}
+
+.prouser-title {
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.prouser-cols {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.col-count {
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.col-class {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+/* What our users say */
+
+
+/* Ready to focus better */
+
+
+
+
+/* TEST */
