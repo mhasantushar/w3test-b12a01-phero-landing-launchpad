@@ -32,6 +32,7 @@
 
 button:hover {
     color:aquamarine;
+    box-shadow:3px 3px 10px;
 }
 
 /* universal */
@@ -310,6 +311,7 @@ userreview-area h3 {
 
 .touch-column input[type="submit"]:hover {
     color: aquamarine;
+    box-shadow:3px 3px 10px;
 }
 
 /* footer */
