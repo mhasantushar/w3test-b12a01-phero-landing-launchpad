@@ -122,7 +122,6 @@ nav {
 .productiveusers-area {
     margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
-    /* height: 306px; */
     height: 206px;
     padding: 50px 80px;
     border-radius: 24px;
@@ -156,14 +155,85 @@ nav {
 }
 
 /* What our users say */
+.userreview-area {
+    margin-top: 137px;
+    height: 342px;
+}
 
+userreview-area h3 {
+    text-align: center;
+}
+
+.userreview-title {
+    color:#252432;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.review-galary {
+    display: flex;
+    gap: 20px;
+}
+
+
+.review-card {
+    margin-top: 50px;
+    width: 366px;
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 14px;
+}
+
+.review-stars {
+    margin-bottom: 24px;
+}
+
+.review-title {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#1E1E1E;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.review-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+
+.review-source {
+    display:flex;
+    gap: 6px;
+}
+
+.reviwer-img {
+    height: 40px;
+    width: 40px;
+}
+
+.reviewer-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:#757575;
+    margin-bottom: 2px;
+}
+
+.review-date {
+    font-family: "Inter", sans-serif;
+    color: #B3B3B3;
+    size: 16px;
+}
 
 /* Ready to focus better */
 .focusbetter-area {
     margin-top: 137px;
     background-color: white;
     height: 556px;
-    /* height: 696px; */
     padding: 71px 150px;
     border-radius: 14px;
     text-align: center;
