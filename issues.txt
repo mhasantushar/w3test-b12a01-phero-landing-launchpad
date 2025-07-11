@@ -1,0 +1,8 @@
+Issues
+------
+
+1. Had to set "Joined Thousands of Productive Users" section's height to 206, as I couldn't fill-up the section vertically with the content with it's height set to 306. Its fine in the design and not working for me. Not sure what I am missing.
+
+2. Same with "Ready to focus better" section.
+
+3. I set input fields to grow 50% as the section has two columns (flex). Now, setting padding in input fields makes those field growing little past the section area!
